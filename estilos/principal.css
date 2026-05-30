@@ -1,0 +1,20 @@
+/* Elements */
+
+/* Identifiers */
+
+/* Classes */
+.photo{
+    max-height: 20rem;
+    margin: auto;
+    display: block;
+}
+.tablet{
+    text-align: center;
+}
+.iria{
+    max-height: 25rem;
+    border-radius: 0.5rem;
+}
+.tpn{
+    border-radius: 0.25rem;
+}

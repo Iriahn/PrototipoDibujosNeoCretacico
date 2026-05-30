@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/imagen/faviconIria.png">
+    <title>Encargos</title>
+    <link rel="stylesheet" href="../estilos/reseteo.css"/>
+    <link rel="stylesheet" href="../estilos/encargos.css"/>
+    <link rel="stylesheet" href="../estilos/comun.css"/>
+    <script src="../scripts/comun.js" defer></script>
+    <script src="../scripts/navsticky.js" defer></script>
+</head>
+<body>
+    <header>
+        <div id="cabecera">
+           <a class="logo-a" href="../index.html"><img class="logo" src="../imagen/NeoCretacico.png" alt="logo dibujos neo cretácico"></a>
+            <h1>Dibujos Neo Cretácico</h1>
+        </div>
+        <div id="progreso"></div>
+        <nav id="arriba">
+            <a href="../index.html">Principal</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="encargos.html">Encargos</a>
+            <a href="contacto.html">Contacto</a>
+            <div class="dropdown">
+                <img id="usericon" class="usericon" src="../imagen/unregisteredicon.png">
+                <div class="dropdown-content ocultar">
+                    <a href="../index.html#dibujodigital">Registrarse</a>
+                    <a href="../index.html#dibujotradicional">Iniciar sesión</a>
+                    <a href="../index.html#dibujotradicional">Salir</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <p>Si estás interesado en tener alguno de los dibujos del portfolio en tu posesión este es el lugar.</p>
+        <p>En el formulario que encontrarás abajo puedes indicar el dibujo en el desplegable y seleccionar el tamaño
+            de la lámina (A4 o A5) así cómo indicar en el cuadro de texto observaciones o preferencias que consideres,
+            cómo, por ejemplo, si prefieres la lámina en cartulina, en papel fotográfico...
+        </p>
+        <p class="titulotabla">La tabla de precios sería la siguiente:</p>
+        <!-- Hacer tabla-->
+        <table>
+            <tr>
+                <th class="tablavacio"></th>
+                <th>A4</th>
+                <th>A5</th>
+            </tr>
+            <tr>
+                <th>Brillante</th>
+                <td>9€</td>
+                <td>7€</td>
+            </tr>
+            <tr>
+                <th>Mate</th>
+                <td>7€</td>
+                <td>5€</td>
+            </tr>
+        </table>
+        <!-- FORMULARIO PARA PRINTS -->
+        <form>
+            <fieldset>
+                <legend>Formulario</legend>
+                <div class="form-group">
+                    <label for="nombre">Nombre o apodo:</label>
+                    <input placeholder="Iria" name="nombre" type="text">
+                </div>
+                <div class="form-group">
+                    <label for="contactored">Red de contacto:</label>
+                    <input placeholder="Twitter" name="contactored" type="text">
+                </div>
+                <div class="form-group">
+                    <label for="contactouser">Nombre de usuario en esa red:</label>
+                    <input placeholder="@iria_novoa" name="contactouser" type="text">
+                </div>
+                <div class="form-group">
+                    <label>Tipo de encargo:</label>
+                    <div class="radio-tipo">
+                        <input name="tipo" type="radio"><label>Tradicional</label>
+                        <input name="tipo" type="radio"><label>Digital</label>
+                    </div>
+                </div>  
+
+                <div class="button-container">
+                    <button type="submit">Enviar formulario</button>
+                    <button type="reset">Borrar formulario</button>
+                </div>
+            </fieldset>
+        </form>
+        <p  class="abajo"><a href="#arriba">Volver arriba</a></p>
+    </main>
+    <footer>©<span id="year"></span>&nbsp;- Iria Hidalgo Novoa UDAW2</footer>
+   
+</body>
+</html>

@@ -1,0 +1,34 @@
+/* Elements */
+body{
+    text-align: center;
+}
+li > a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+    text-align: left;
+}
+
+
+/* Identifiers */
+
+
+/* Classes */
+.redes{
+    border-left: 0.3rem ridge var(--second-color);
+    border-right: 0.3rem ridge var(--second-color);
+    width: 60%;
+    background-color: var(--third-color);
+    margin: auto;
+    padding: 0.125rem;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+}
+.red{
+    padding: 0.125rem;
+}
+.avatar2{
+	width: 20rem;
+}
