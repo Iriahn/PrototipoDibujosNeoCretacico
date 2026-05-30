@@ -225,7 +225,7 @@ footer{
 }
 .usericonhover{
   height: 2.5rem;
-  content: url("/imagen/unregisterediconhover.png");
+  content: url("../imagen/unregisterediconhover.png");
 }
 .logo-a{
   margin: auto;
